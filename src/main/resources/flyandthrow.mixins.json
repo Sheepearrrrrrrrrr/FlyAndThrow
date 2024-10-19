@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "io.github.sheepearrrrrrrrrr.flyandthrow.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "FlyAndThrowMixin",
+    "ImpalingEnchantmentMixin",
+    "MobEntityMixin",
+    "PlayerEntityMixin",
+    "RiptideEnchantmentMixin",
+    "TridentEntityMixin",
+    "TridentItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

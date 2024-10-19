@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "flyandthrow",
+	"version": "${version}",
+	"name": "Fly & Throw",
+	"description": "A little mod to make the trident better.",
+	"authors": [
+		"Sheepearrr"
+	],
+	"license": "MIT",
+	"icon": "assets/flyandthrow/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.sheepearrrrrrrrrr.flyandthrow.FlyThrow"
+		],
+		"client": [
+			"io.github.sheepearrrrrrrrrr.flyandthrow.FlyThrowClient"
+		],
+		"fabric-datagen": [
+			"io.github.sheepearrrrrrrrrr.flyandthrow.FlyThrowDataGenerator"
+		]
+	},
+	"mixins": [
+		"flyandthrow.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
